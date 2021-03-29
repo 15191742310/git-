@@ -196,6 +196,8 @@ git remote add origin [网址]
 
 ## （2）使用
 
-git pull
+git push origin -u master
 
-git push
+###### **以上代码只需要写一次产生关联后就可以用 git push 即可**
+
+git pull origin -u master 错误 pull不识别-u但是push设置之后两个都会识别
